@@ -1,5 +1,8 @@
 # DP-1 Feed Operator API
 
+> **Archived — this repository is no longer maintained.**  
+> Active development has moved to **[dp1-feed-v2](https://github.com/display-protocol/dp1-feed-v2)**. That project replaces this codebase to remove the complexity of maintaining a dual deployment (Cloudflare Workers and Node.js in one repo) and to offer a simpler stack that runs the same way in the cloud and on-premise.
+
 [![Build Status](https://img.shields.io/github/actions/workflow/status/display-protocol/dp1-feed/test.yaml?branch=main&label=build%20status&logo=github)](https://github.com/display-protocol/dp1-feed/actions/workflows/test.yaml)
 [![Linter](https://img.shields.io/github/actions/workflow/status/display-protocol/dp1-feed/lint.yaml?branch=main&label=linter&logo=github)](https://github.com/display-protocol/dp1-feed/actions/workflows/lint.yaml)
 [![Code Coverage](https://img.shields.io/codecov/c/github/display-protocol/dp1-feed/main?label=code%20coverage&logo=codecov)](https://codecov.io/gh/display-protocol/dp1-feed)
@@ -186,6 +189,7 @@ npm run test:coverage
 
 ## 🔗 References
 
+- **[dp1-feed-v2](https://github.com/display-protocol/dp1-feed-v2)** (successor to this project)
 - [DP-1 Specification](https://github.com/display-protocol/dp1/blob/main/docs/spec.md)
 - [OpenAPI Schema](https://github.com/display-protocol/dp1/blob/main/docs/feed-api.yaml)
 - [Hono Framework](https://hono.dev/)
@@ -193,6 +197,10 @@ npm run test:coverage
 - [Cloudflare Workers](https://developers.cloudflare.com/workers/)
 
 ## 🤝 Contributing
+
+This repository is archived. For bug reports, features, and pull requests, use **[dp1-feed-v2](https://github.com/display-protocol/dp1-feed-v2)**.
+
+If you are maintaining a fork of this legacy codebase:
 
 1. Fork the repository
 2. Create a feature branch
